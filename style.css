@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+header{
+    margin-bottom: 3%;
+}
+h1{
+    font-family: 'Afacad', sans-serif;
+}
+.dark{
+    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+}
+.light{
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+    font-weight: 600;
+}
+a{
+    font-family: 'Nunito', sans-serif;
+    color: #0080ff;
+    text-decoration: underline;
+}
+button{
+    background-color: #0080ff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 18px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+button:active{
+    background-color: white;
+    transform: scale(0.9);
+}
+.footer-container{
+    margin-top: 3%;
+}
+.content{
+    height: auto;
+    width: 50%;
+    background-color: gainsboro;
+    padding: 15px 15px;
+    margin-top: 3%;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 4px;
+}
+.left{
+    margin-left: 2%;
+    text-align: left;
+    width: 50%;
+}
+.right{
+    margin-top: -10%;
+    text-align: right;
+    width: 50%;
+    margin-left: 45%;
+}
+.nected{
+    height: 45px;
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.logo-container{
+    box-shadow: 10px 5px 5px gainsboro;
+}
+.icon{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* For responsiveness */
+@media (max-width: 768px) {
+
+    .content {
+        width: 80%; 
+        margin-top: 20px;
+    }
+    .left,
+    .right {
+        width: 100%; /* Occupy full width */
+        text-align: center; /* Center-align text */
+        margin-left: 0; /* Remove margin on smaller screens */
+    }
+    .right {
+        margin-top: 5%; /* Adjust margin */
+    }
+}
+@media (max-width: 375px){
+    .logo-container img{
+        width: 150px;
+    }
+}
